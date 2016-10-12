@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>calendar link</title>
+    <link rel="stylesheet" href="./picker.css">
+    <style type="text/css">
+      main > div { padding: 10px; }
+      h1, h2, h3 { padding: 10px 10px 0 10px; }
+      .form-field > input { margin-bottom: 5px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Add To Google Calendar Link Generator</h1>
+      <div class="form-field">
+        <input type="text" placeholder="Title" class="date-example titleInput" tabindex="400" />
+        <input type="text" placeholder="Description" class="date-example detailsInput" tabindex="400" />
+        <input type="text" data-input="" placeholder="Start date" class="startInput">
+        <input type="text" data-input="" placeholder="Time zone" class="tzInput">
+      </div>
+      <h3>Link:</h3>
+      <div class="link">
+      </div>
+    </main>
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>

@@ -31,7 +31,12 @@ function render (e) {
   var tz = tzInput.value
   if (tz) url = url + '&ctz=' + tz
   url = url.replace('http://', 'https://')
-  linkContainer.innerHTML = `<a target="_blank" href="${url}">${url}</a>`
+  linkContainer.innerHTML = `
+    <h3>Link:</h3>
+    <a target="_blank" href="${url}">${url}</a>
+    <h3>Markdown:</h3>
+    <pre>[📅 Add to Google Calendar](${url})</pre>
+  `
 }
 
 render()

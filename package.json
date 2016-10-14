@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flatpickr": "^2.0.5",
-    "generate-google-calendar-url": "0.0.2"
+    "flatpickr": "^2.0.5"
   },
   "devDependencies": {
     "wzrd": "^1.4.0"

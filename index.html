@@ -10,7 +10,8 @@
       h1, h2, h3 { padding: 10px 10px 0 10px; }
       pre { font-size: 14px; padding: 5px; }
       .form-field > input { margin-bottom: 5px; }
-      .link > a, .link pre { margin: 10px; }
+      .link > a, .link pre, .note { margin: 10px; }
+      .note { font-size: 11px; }
     </style>
   </head>
   <body>
@@ -20,10 +21,10 @@
         <input type="text" placeholder="Title" class="date-example titleInput" tabindex="400" />
         <input type="text" placeholder="Description" class="date-example detailsInput" tabindex="400" />
         <input type="text" data-input="" placeholder="Start date" class="startInput">
-        <input type="text" data-input="" placeholder="Time zone" class="tzInput">
       </div>
       <div class="link">
       </div>
+      <p class="note">Note: Select time using your browsers current time zone. Link will contain time zone converted to GMT. When others click it, their google calendar will translate it to their local time.
     </main>
 
     <script src="./bundle.js"></script>
